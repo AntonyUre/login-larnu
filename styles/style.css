@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --color-primario: #4b039e;
+  --color-secundario: #a1a1a1;
+}
+main {
+  background-image: url("/img/login-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container-btn {
+  width: 330px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.container-btn img {
+  border-radius: 20px;
+  width: 100px;
+  margin: auto;
+}
+.container-btn p {
+  text-align: center;
+  margin: 10px auto 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.container-btn .box-btn {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+}
+/* .container-btn .box-btn .btn {
+  text-decoration: none;
+  background: var(--color-primario);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+} */
+
+/* Css Login */
+
+.box-input input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  background: #ffffff;
+  border: solid 1px var(--color-secundario);
+  border-radius: 10px;
+}
+.box-input textarea {
+  width: 100%;
+  min-width: 330px;
+  max-width: 330px;
+  min-height: 100px;
+  max-height: 100px;
+}
+/* .box-btn .btn-contact {
+  text-decoration: none;
+  background: var(--color-primario);
+  color: #fff;
+  padding: 20px 43%;
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+} */
+
+/* Login */
+.box-input label {
+  color: #3a3a3a;
+  padding-left: 20px;
+}
+.btn-form {
+  text-decoration: none;
+  background: var(--color-primario);
+  color: #fff;
+  padding: 15px 43%;
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
+/* @media screen and (max-width: 768px) {
+  .btn-back {
+    position: absolute;
+    left: 50%;
+    background: var(--color-primario);
+    padding: 15px 18px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 50%;
+    top: 20px;
+    transform: translateX(-170px);
+  }
+} */

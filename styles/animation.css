@@ -1,0 +1,88 @@
+img {
+  pointer-events: none;
+}
+.logo-larnu{
+  position: absolute;
+  background: rgb(236, 236, 236);
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 50%;
+  left: 50%;
+  top:10%;
+  transform: translateX(-50%);}
+.logo-larnu img{
+  width: 100%;
+  height: 100%;
+}
+.randown{
+  width: auto;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: red;
+}
+.larnu-animation {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  /* right: -115px; */
+  transition: 2s;
+  width: -200px;
+  
+  clip: rect(-157px, 87px, 169px, -181px);
+  /* clip-path: inset(30px 10px 30px 10px); */
+}
+.larnu-animation img {
+  width: 200px;
+}
+.larnu-animation .head {
+  position: absolute;
+  top: -145px;
+  left: -115px;
+  /* z-index: 1; */
+}
+.larnu-animation .body-larnu {
+  z-index: 999;
+}
+.larnu-animation .arm {
+  position: absolute;
+  top: 5px;
+  left: -110px;
+  /* z-index: 3; */
+}
+
+/* Animation */
+.larnu-animation .arm {
+  animation-duration: 1s;
+  animation-name: saludo;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes saludo {
+  from {
+    transform: rotate(15deg);
+    transform-origin: 200px 10px;
+
+    /* margin-left: 100%; */
+    /* width: 300% */
+  }
+
+  /* to {
+    transform: rotate(33deg);
+    transform-origin: 200px -20px;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .larnu-animation {
+    position: absolute;
+    top: 25%;
+    right: -115px;
+    transition: 2s;
+  }
+  .larnu-animation img {
+    width: 200px;
+  }
+}
