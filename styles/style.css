@@ -40,13 +40,6 @@ main {
   display: flex;
   justify-content: space-between;
 }
-/* .container-btn .box-btn .btn {
-  text-decoration: none;
-  background: var(--color-primario);
-  color: #fff;
-  padding: 20px 30px;
-  border-radius: 15px;
-} */
 
 /* Css Login */
 
