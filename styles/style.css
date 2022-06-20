@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 :root {
   --color-primario: #4b039e;
@@ -13,9 +13,11 @@ main {
   background-position: center;
   height: 100vh;
   display: flex;
+  overflow: hidden;
+  position: relative;
 }
 
-.container-btn {
+.container {
   width: 330px;
   margin: auto;
   display: flex;
@@ -24,18 +26,18 @@ main {
   border-radius: 20px;
   padding: 20px 30px;
 }
-.container-btn img {
+.container img {
   border-radius: 20px;
   width: 100px;
   margin: auto;
 }
-.container-btn p {
+.container p {
   text-align: center;
   margin: 10px auto 20px;
   font-weight: bold;
   font-size: 16px;
 }
-.container-btn .box-btn {
+.container .box-btn {
   display: inline;
   display: flex;
   justify-content: space-between;

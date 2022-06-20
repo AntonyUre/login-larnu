@@ -24,6 +24,7 @@ img {
   width: -200px;
   clip: rect(-157px, 87px, 169px, -181px);
 }
+
 .larnu-animation img {
   width: 200px;
 }
@@ -60,11 +61,11 @@ img {
   .larnu-animation {
     position: absolute;
     top: 25%;
-    right: -115px;
+    /* right: -115px; */
     transition: 2s;
     display: none;
   }
-  .larnu-animation img {
+  /* .larnu-animation img {
     width: 200px;
-  }
+  } */
 }
