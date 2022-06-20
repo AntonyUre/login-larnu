@@ -26,12 +26,9 @@ img {
   position: absolute;
   top: 50%;
   right: 0px;
-  /* right: -115px; */
   transition: 2s;
   width: -200px;
-  
   clip: rect(-157px, 87px, 169px, -181px);
-  /* clip-path: inset(30px 10px 30px 10px); */
 }
 .larnu-animation img {
   width: 200px;
@@ -40,7 +37,6 @@ img {
   position: absolute;
   top: -145px;
   left: -115px;
-  /* z-index: 1; */
 }
 .larnu-animation .body-larnu {
   z-index: 999;
@@ -49,7 +45,6 @@ img {
   position: absolute;
   top: 5px;
   left: -110px;
-  /* z-index: 3; */
 }
 
 /* Animation */
@@ -64,15 +59,7 @@ img {
   from {
     transform: rotate(15deg);
     transform-origin: 200px 10px;
-
-    /* margin-left: 100%; */
-    /* width: 300% */
   }
-
-  /* to {
-    transform: rotate(33deg);
-    transform-origin: 200px -20px;
-  } */
 }
 
 @media screen and (max-width: 768px) {

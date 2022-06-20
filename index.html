@@ -28,13 +28,12 @@
         <img src="./img/favicon.ico" alt="" />
       </a>
       <div class="container-btn">
-        <!-- <img src="https://i.postimg.cc/fLDFsmzw/larnup.webp" alt="" /> -->
         <p>
           Hola 🤙 <br />
           Accede a tu cuenta de admin
         </p>
         <form action="" class="box-input">
-          <input type="email" placeholder="Correo electronico..." required />
+          <input type="email" placeholder="Correo electronico..." pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required />
           <input type="password" placeholder="Contraseña..." required />
           <button class="btn-form">Ingresar</button>
           <p

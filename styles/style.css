@@ -67,15 +67,6 @@ textarea {
   min-height: 100px;
   max-height: 100px;
 }
-/* .box-btn .btn-contact {
-  text-decoration: none;
-  background: var(--color-primario);
-  color: #fff;
-  padding: 20px 43%;
-  border-radius: 15px;
-  width: 100%;
-  box-sizing: border-box;
-} */
 
 /* Login */
 .box-input label {
@@ -92,19 +83,3 @@ textarea {
   box-sizing: border-box;
   border: none;
 }
-/* @media screen and (max-width: 768px) {
-  .btn-back {
-    position: absolute;
-    left: 50%;
-    background: var(--color-primario);
-    padding: 15px 18px;
-    text-decoration: none;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    color: #fff;
-    border-radius: 50%;
-    top: 20px;
-    transform: translateX(-170px);
-  }
-} */
